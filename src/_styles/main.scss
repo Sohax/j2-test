@@ -1,0 +1,25 @@
+// Normalize Styles
+@import 'node_modules/normalize.css/normalize';
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+html {
+  font-size: 15px;
+}
+// Import Modules
+// @import '../_modules/link/link';
+@import 'variables';
+@import 'font';
+@import 'common';
+@import 'head';
+@import 'enquiery';
+@import 'iconic-wrapper';
+@import 'buzzing';
+@import 'event';
+@import 'amenities';
+@import 'liverpool';
+@import 'connected';
+@import 'actions';
+@import 'footer';
+
+
+

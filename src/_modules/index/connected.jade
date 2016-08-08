@@ -1,0 +1,11 @@
+.row.no-gutter-no-margin.connected-row
+	.col-xs-12 
+		h1.title #{site.data.connected.title}
+		.info-description #{site.data.connected.description}
+.row.no-gutter-no-margin.connected-row
+	each icon in site.data.connected.icons
+		.col-icon-wrapper
+			.col-icon
+				div(class='#{icon.iconName} connected-icon ') 
+				.title #{icon.title}
+				.subtitle #{icon.subTitle}

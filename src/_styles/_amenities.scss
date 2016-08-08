@@ -1,0 +1,64 @@
+.amenities-wrapper {
+	position: relative;
+	background-color: $bg-info-03;
+}
+
+.info-amenities {
+	@extend %info-wrapper;
+
+	border-color: transparent;
+	border: none;
+	padding: 0;
+	padding-top: 2rem;
+	// left: 1rem;
+	// width: calc(100% - 1rem);
+	width: 100%;
+	left: inherit;
+
+	.info-title {
+		font-size: 1.8rem;
+		padding-bottom: 2rem;
+
+	}
+
+	.info-description {
+		margin-top: 3rem;
+		text-align: center;
+		font-size: 1.1rem;
+		@extend %info-description;
+	}
+
+
+}
+
+.amenities-list {
+	list-style-type: none;
+	padding: 0;
+
+	.list-item {
+		@extend .info-divider;
+
+		width: calc(100% - 45px);
+		margin: 0 !important;
+		text-transform: uppercase;
+		padding: 0.5rem 0;
+		transition: 0.7s;
+		cursor: pointer;
+
+		&:hover {
+			color: $text-color-04;
+		}
+	}
+}
+
+.j2-custom-font-j2-custom-font-trapez {
+	font-size: 5rem;
+	text-align: center;
+	padding-top: 2rem;
+	margin-bottom: -2.2rem;
+}
+
+.svg-arrow {
+	margin-top: -1px;
+	width: 100%;
+}

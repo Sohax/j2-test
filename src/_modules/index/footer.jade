@@ -1,0 +1,14 @@
+.footer-wrapper
+	.title #{site.data.footer.title}
+	a(href="#top").footer #{site.data.footer.label}
+	hr
+	img.svg-arrow(src='/images/logo-footer.svg')
+	ul.footer-list
+		each footerLink in site.data.footer.footerLinks
+			li.list-item
+				a.list-item-link(href="#{footerLink.link}") #{footerLink.title}
+	img.svg-arrow(src='/images/moorfieldgroup.svg')
+	ul.footer-list
+		each footerPrivacy in site.data.footer.footerPrivacies
+			li.list-item
+				a.list-item-link(href="#{footerPrivacy.link}") !{footerPrivacy.title}

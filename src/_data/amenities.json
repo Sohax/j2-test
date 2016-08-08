@@ -1,0 +1,40 @@
+{
+	"title": "Local amenities",
+	"description": "Whether you enjoy a gourmet meal overlooking the twinkling lights of the docks, or an Arthouse film followed by a craft beer at a pop-up brewery, you’ll find constant inspiration on your doorstep. ",
+	"lists": [
+		{
+		  "name": "bluecoat art centre",
+		  "link": "http://link.to/amenities-sub.html"
+		},
+		{
+		  "name": "cavern club"
+		},
+		{
+		  "name": "chinese arch"
+		},
+		{
+		  "name": "echo arena"
+		},
+		{
+		  "name": "lipa"
+		},
+		{
+		  "name": "liverpool cathedral"
+		},
+		{
+		  "name": "liverpool one"
+		},
+		{
+		  "name": "royal court theatre"
+		},
+		{
+		  "name": "tate liverpool"
+		},
+		{
+		  "name": "the lantern theatre"
+		},
+		{
+		  "name": "walker art gallery"
+		}
+	]
+}

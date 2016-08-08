@@ -1,0 +1,14 @@
+.row.no-gutter-no-margin
+	.col-xs-12.liverpool
+		h1.title #{site.data.liverpool.title}
+		.description-of #{site.data.liverpool.description}
+		.liverpool-info-description #{site.data.liverpool.description}
+	each imagePath in site.data.liverpool.imagePaths
+		.col-xs-12.col-md-4
+			.image-wrapper
+				img.full-image(src='#{imagePath.path}')
+				table.callout-table
+					tr
+						td.centered
+							h3 #{imagePath.alt}
+							h4 View listings &gt;

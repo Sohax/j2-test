@@ -1,0 +1,18 @@
+{
+	"title": "What’s going on in liverpool",
+	"description": "Keep up to date with the latest openings, events and attractions that livepool has to offer",
+	"imagePaths": [
+		{
+			"path": "/images/images/j320-liverpool.jpg",
+			"alt": "it's liverpool"
+		},
+		{
+			"path": "/images/images/j320-food-table.jpg",
+			"alt": "food table"
+		},
+		{
+			"path": "/images/images/j320-library.jpg",
+			"alt": "awesome library"
+		}
+	]
+}

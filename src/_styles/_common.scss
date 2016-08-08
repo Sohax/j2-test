@@ -1,0 +1,85 @@
+// Box sizing partial styles:
+// Apply a natural box layout model to all elements
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container-nopad {
+	@extend .container;
+	padding: 0;
+}
+.section {
+	position: relative;
+	margin-top: 1rem;
+}
+
+.full-image {
+	min-width: 100%;
+}
+
+/* info */
+%info-wrapper {
+	color: $text-color-01;
+	border: 4px solid $text-color-01;
+	padding: 1rem 1.5rem;
+	box-sizing: border-box;
+	margin-top: -30px;
+	z-index: 1;
+	position: relative;
+	width: 80%;
+	left: 10%;
+
+	.info-title {
+		text-transform: uppercase;
+		font-size: 1.2rem;
+		padding-right: 4rem;
+	}
+	
+	.info-divider {
+		border-bottom: 2px solid $text-color-01;
+		margin: 1rem 0;
+	}
+	.info-description {
+		font-size: 0.8rem;
+	}
+}
+
+
+%full-button {
+	@extend .btn;
+	@extend .btn-block;
+	@extend .btn-outline-primary;
+
+	color: $text-color-01;
+	border-color: $text-color-01;
+	text-transform: uppercase;
+	padding: 1rem;
+	font-size: 1.2rem;
+	border-width: 2px;
+	border-radius: 0;
+	margin: 0.5rem 0;
+}
+
+.no-gutter-no-margin {
+    margin-left: 0;
+    margin-right: 0;
+
+	& > [class*='col-'] {
+	    padding-right:0;
+	    padding-left:0;
+	}
+}
+
+hr {
+	border-color: $text-color-01;
+	margin-top: 2rem;
+}
+
+%info-description {
+	font-family: 'Archivo Narrow';
+	font-size: 1rem;
+}

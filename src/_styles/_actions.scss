@@ -1,0 +1,74 @@
+.col-action-wrapper {
+	@extend .col-xs-12;
+	@extend .col-md-6;
+
+	min-height: 280px;
+	padding-top: 2.5rem;
+	text-align: center;
+	// border: 1px solid red;
+	
+	.title {
+		font-size: 1.3rem;
+		padding: 0;
+	}
+
+	.subtitle {
+		font-size: 0.8rem;
+		display: inline-block;
+		width: 75%;
+		
+	}
+
+	&:nth-child(4n+1) .icon,
+	&:nth-child(4n+1) .title {
+		color: $text-color-03;
+	}
+
+	&:nth-child(4n+2) .icon,
+	&:nth-child(4n+2) .title {
+		color: $text-color-02;
+	}
+
+	&:nth-child(4n+3) .icon,
+	&:nth-child(4n+3) .title {
+		color: $bg-blue-01;
+	}
+
+	&:nth-child(4n+4) .icon,
+	&:nth-child(4n+4) .title {
+		color: $bg-info-04;
+	}
+
+	&:nth-child(4n+1) .action {
+		background-color: $text-color-03;
+	}
+
+	&:nth-child(4n+2) .action {
+		background-color: $text-color-02;
+	}
+
+	&:nth-child(4n+3) .action {
+		background-color: $bg-blue-01;
+	}
+
+	&:nth-child(4n+4) .action {
+		background-color: $bg-info-04;
+	}
+	
+	.action {
+		@extend %full-button;
+		
+		background-color: transparent;
+		padding: 1.6rem;
+
+		&:hover {
+			background-color: $bg-info-03;
+		}
+	}
+}
+.action-icon {
+	@extend .icon;
+
+	font-size: 6rem;
+	text-align: center;
+}

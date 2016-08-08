@@ -1,0 +1,11 @@
+.amenities-wrapper
+    .container
+        .info-amenities
+            .info-title #{site.data.amenities.title}
+            ul.amenities-list
+                each list in site.data.amenities.lists
+                    li.list-item #{list.name}
+            img.full-image(src='/images/images/j320-map.jpg')
+            .info-description #{site.data.amenities.description}
+            .j2-custom-font-j2-custom-font-trapez.icon
+img.svg-arrow(src='/images/320-arrow.svg')

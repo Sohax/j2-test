@@ -1,0 +1,44 @@
+.event-wrapper {
+	position: relative;
+	min-height: 274px;
+	background: url('/images/images/j320-events-listings.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 4rem;
+}
+.info-event {
+	@extend %info-wrapper;
+	background-color: transparent;
+	border-color: transparent;
+	padding-top: 4rem;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+
+	.info-title {
+		text-align: center;
+		margin: 1rem;
+		padding-right: 0;
+	}
+
+	.info-divider {
+		margin: 0 2rem;
+
+	}
+
+	.info-description {
+		color: $text-color-01;
+		margin-top: 1rem;
+		width: 100%;
+		font-size: 1.2rem;
+		@extend %info-description;
+	}
+}
+
+.event {
+	@extend %full-button;
+
+	background-color: $bg-info-02;
+	margin: 4rem 0 2rem;
+}
+ 

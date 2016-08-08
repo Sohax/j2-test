@@ -1,0 +1,43 @@
+.connected-icon {
+	@extend .icon;
+
+	font-size: 6rem;
+	text-align: center;
+}
+.connected-row {
+	background-color: $bg-info-04;
+	text-align: center;
+
+	.title {
+		color: $text-color-01;
+		font-size: 1.3rem;
+	}
+	.info-description {
+		font-size: 0.9rem;
+		padding: 1rem;
+		color: $text-color-03;
+	}
+}
+
+.col-icon {
+	padding: 0.8rem;
+	color: $text-color-01;
+}
+
+.col-icon-wrapper{
+	@extend .col-xs-6;
+	@extend .col-md-3;
+
+	min-height: 280px;
+	// border: 1px solid red;
+	
+	.title {
+		font-size: 1.4rem;
+		padding: 0;
+	}
+
+	.subtitle {
+		font-size: 0.9rem;
+		color: $text-color-03;
+	}
+}

@@ -1,0 +1,36 @@
+.footer-wrapper {
+	background-color: $text-color-03;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 1rem;
+
+	.title {
+		font-size: 1.5rem;
+	}
+}
+.footer {
+	@extend %full-button;
+	
+	background-color: transparent;
+}
+
+.footer-list {
+	list-style-type: none;
+	padding: 0;
+
+	.list-item {
+		display: inline-block;
+		font-size: 0.7rem;
+		
+		&:not(:last-child):after {
+			content: "|";
+			color: $text-color-01;
+			padding-left: 0.3rem;
+		}
+
+		.list-item-link {
+			color: $text-color-01;
+		}
+
+	}
+}

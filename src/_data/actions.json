@@ -1,0 +1,24 @@
+[
+	{
+		"iconName": "j2-custom-font-j2-custom-font-brochure",
+		"label": "download", 
+		"title": "The keel host brochure",
+		"subTitle": "Click to download ‘The Keel’ brochure, specification sheet and floorplans"},
+	{
+		"iconName": "j2-custom-font-j2-custom-font-floorplan",
+		"label": "view",
+		"title": "View floorplans",
+		"subTitle": "Studio, one, two and three bedroom apartments"
+	},
+	{
+		"iconName": "j2-custom-font-j2-custom-font-camera",
+		"label": "view",
+		"title": "View gallery",
+		"subTitle": "Enjoy the pleasures that Liverpool ‘the city of culture’ has to offer"},
+	{
+		"iconName": "j2-custom-font-j2-custom-font-mail",
+		"label": "enquire",
+		"title": "Make an enquiry",
+		"subTitle": "Register your interest in an apartment at The Keel"
+	}
+]

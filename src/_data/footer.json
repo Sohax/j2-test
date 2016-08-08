@@ -1,0 +1,32 @@
+{
+	"title": "Liverpool's most exciting residential development",
+	"label": "Back to top",
+	"footerLinks": [
+		{
+			"title": "The Keel",
+			"link": "#"
+		},{
+			"title": "Apartments",
+			"link": "#"
+		},{
+			"title": "Location",
+			"link": "#"
+		},{
+			"title": "Gallery",
+			"link": "#"
+		},{
+			"title": "Contact",
+			"link": "#"
+		}
+	],
+
+	"footerPrivacies": [
+		{
+			"title": "&copy; Copyright 2015 Moorfield Group",
+			"link": "#"
+		},{
+			"title": "Privacy",
+			"link": "#"
+		}
+	]
+}

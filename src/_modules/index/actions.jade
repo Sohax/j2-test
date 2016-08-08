@@ -1,0 +1,7 @@
+.row1
+	each action in site.data.actions
+		.col-action-wrapper
+			div(class='#{action.iconName} action-icon')
+			.title #{action.title}
+			.subtitle #{action.subTitle}
+			button.action #{action.label}

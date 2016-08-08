@@ -1,0 +1,26 @@
+extends _layouts/base
+
+include _modules/link/link
+
+block content
+  name#top
+  .container-nopad
+    include _modules/index/head
+    include _modules/index/enquiery
+
+  .container
+    include _modules/index/iconic
+    include _modules/index/buzzing
+    
+  .container-nopad
+    include _modules/index/event
+    include _modules/index/amenities
+    include _modules/index/liverpool
+    include _modules/index/connected
+    
+  .container
+    include _modules/index/actions
+      
+  .container-nopad
+    include _modules/index/footer  
+

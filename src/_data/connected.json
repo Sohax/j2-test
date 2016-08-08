@@ -1,0 +1,25 @@
+{
+	"title": "Stay connected",
+	"description": "The Keel offers convenient access onto Strand Street",
+	"icons": [
+		{
+			"iconName": "j2-custom-font-j2-custom-font-car",
+			"title": "Secure car parking",
+			"subTitle": "The secure car park offers convenient access onto strand street"
+		},
+		{
+			"iconName": "j2-custom-font-j2-custom-font-bus",
+			"title": "Access to the city",
+			"subTitle": "Routes C4, C5 and Citylink pass by the apartments"
+		},
+		{
+			"iconName": "j2-custom-font-j2-custom-font-tram",
+			"title": "Key rail stations",
+			"subTitle": "Quick and easy access to both Liverpool Central and Liverpool Lime Street"
+		},
+		{
+			"iconName": "j2-custom-font-j2-custom-font-plane",
+			"title": "Airport access",
+			"subTitle": "John Lennon Airport is reached in just 15 minutes"}
+	]
+}

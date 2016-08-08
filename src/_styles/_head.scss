@@ -1,0 +1,24 @@
+.head-wrapper {
+	position: relative;
+	height: 274px;
+	background: url('/images/images/j320-header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navicon {
+	color: white;
+	font-size: 2rem;
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+}
+
+.transparent-head {
+	position: absolute;
+	height: 274px;
+	width: 100%;
+	background: url('/images/images/j320-header.png');
+	background-repeat: no-repeat;
+
+}
